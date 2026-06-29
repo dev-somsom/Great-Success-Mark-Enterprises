@@ -386,7 +386,22 @@ body.no-scroll{
 .btn-primary:hover {
     background: #0c3b70;
 }
-
+.order-btn {
+    display: inline-block;
+    padding: var(--space-2) var(--space-3);
+    margin-top: var(--space-3);
+    background-color: green;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+.order-btn:hover {
+    color: green;
+    background-color: #999;
+    transform: translate(-2px);
+}
 
 .container {
     max-width: 1200px;
